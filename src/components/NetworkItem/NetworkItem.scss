@@ -1,0 +1,44 @@
+.network-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  cursor: pointer;
+
+  .network-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+    .network-id {
+      display: flex;
+      align-items: center;
+
+      h2 {
+        min-width: 480px;
+      }
+    }
+  }
+
+  .device-count {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  .no-devices {
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 8px;
+    text-align: center;
+  }
+}

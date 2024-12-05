@@ -1,0 +1,9 @@
+.chevron {
+  display: inline-block;
+  transition: transform 0.3s;
+  margin-left: 10px;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}
